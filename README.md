@@ -42,7 +42,7 @@ venv\Scripts\activate     # Windows
 
 4. Share your Google Sheet with the service account email (found in the JSON)
 
-5. Update main.py with the name of your Google Sheet and desired range.
+5. Update main.py with the name of your Google Sheet (long string between /d/ and /edit in the URL bar) and desired range.
 
 
 ## Run:
@@ -74,9 +74,9 @@ README.md                 # This file
 
 ## Program Snippet:
 
-Job Title	   Company	    Date Applied	   Status
-Data Analyst    OpenAI	   2025-07-10	      Applied
-SWE Intern	    Google	   2025-07-05	      Interview
+Job Title	    Company	    Date Applied	   Status
+Data Analyst    OpenAI	    2025-07-10	      Applied
+SWE Intern	    Google	    2025-07-05	      Interview
 
 After 7 days with status still as 'Applied' for the Data Anaylst position, the program will send a reminder.
 
