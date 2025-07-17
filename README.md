@@ -63,12 +63,24 @@ After running the program, you'll be prompted to:
 
 ## File Structure
 job-application-tracker/
-│
-├── main.py               # Main script to interact with the tracker
-├── reminder.py           # Helper functions (view, update, reminder logic)
-├── secrets.json          # Google API credentials (do NOT commit this)
-├── requirements.txt      # List of Python packages
-└── README.md             # This file
 
+main.py                   # Main script to interact with the tracker
+reminder.py               # Helper functions (view, update, reminder logic)
+secrets.json              # Google API credentials (do NOT commit this if repo is public)
+README.md                 # This file
+
+
+## Program Snippet:
+
+Job Title	   Company	    Date Applied	   Status
+Data Analyst    OpenAI	   2025-07-10	      Applied
+SWE Intern	    Google	   2025-07-05	      Interview
+
+After 7 days with status still as 'Applied' for the Data Anaylst position, the program will send a reminder.
+
+# Notes:
+
+1. Add secrets.json to your .gitignore file
+2. If you choose to work in a virtual environment, please include 'venv/' in your .gitignore file too
 
 
