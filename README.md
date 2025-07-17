@@ -26,7 +26,9 @@ A Python-based tool that helps you log, track, and follow up on job applications
 ## Optional (if local environment has trouble installing `gspread` and `google-auth` libraries):
 
 python -m venv venv
+
 source venv/bin/activate  # macOS/Linux
+
 venv\Scripts\activate     # Windows
 
 
