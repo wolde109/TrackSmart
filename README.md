@@ -69,7 +69,7 @@ main.py                   # Main script to interact with the tracker
 
 tracker.py               # Helper functions (view, update, reminder logic)
 
-secrets.json              # Google API credentials (do NOT commit this if repo is public)
+secrets.json              # Google API credentials
 
 README.md                 # This file
 
@@ -79,13 +79,16 @@ README.md                 # This file
 <img width="428" height="142" alt="Image" src="https://github.com/user-attachments/assets/3b7dea6d-f059-4535-a668-8c275d664ebb" />
 
 
-After 7 days after status is 'Applied' for that particualar position, it will send an automatic reminder.
+
+
+
+After 7 days after status is 'Applied' for that particular position, it will send an automatic reminder.
 <img width="444" height="21" alt="Image" src="https://github.com/user-attachments/assets/42fa9a37-46fb-4468-9276-1f68ee3e38c2" />
 
 
 # Notes:
 
-1. Add secrets.json to your .gitignore file
+1. First thing, add secrets.json to your .gitignore file and commit it to keep your API credentials safe and your repo clean
 2. If you choose to work in a virtual environment, please include 'venv/' in your .gitignore file too
 
 
