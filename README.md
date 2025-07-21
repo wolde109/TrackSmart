@@ -64,11 +64,13 @@ After running the program, you'll be prompted to:
 
 
 ## File Structure
-job-application-tracker/
 
 main.py                   # Main script to interact with the tracker
-reminder.py               # Helper functions (view, update, reminder logic)
+
+tracker.py               # Helper functions (view, update, reminder logic)
+
 secrets.json              # Google API credentials (do NOT commit this if repo is public)
+
 README.md                 # This file
 
 
@@ -76,6 +78,8 @@ README.md                 # This file
 
 <img width="428" height="142" alt="Image" src="https://github.com/user-attachments/assets/3b7dea6d-f059-4535-a668-8c275d664ebb" />
 
+
+After 7 days after status is 'Applied' for that particualar position, it will send an automatic reminder.
 <img width="444" height="21" alt="Image" src="https://github.com/user-attachments/assets/42fa9a37-46fb-4468-9276-1f68ee3e38c2" />
 
 
