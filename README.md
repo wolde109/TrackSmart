@@ -82,7 +82,8 @@ README.md                 # This file
 
 
 
-After 7 days where status is 'Applied' for that particular position, it will send an automatic reminder.
+After 7 days where status is 'Applied' for that particular position, it will send an automatic reminder:
+
 <img width="444" height="21" alt="Image" src="https://github.com/user-attachments/assets/42fa9a37-46fb-4468-9276-1f68ee3e38c2" />
 
 
