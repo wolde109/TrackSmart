@@ -74,11 +74,8 @@ README.md                 # This file
 
 ## Program Snippet:
 
-Job Title	    Company	    Date Applied	   Status
-Data Analyst    OpenAI	    2025-07-10	      Applied
-SWE Intern	    Google	    2025-07-05	      Interview
+<img width="428" height="142" alt="Image" src="https://github.com/user-attachments/assets/3b7dea6d-f059-4535-a668-8c275d664ebb" />
 
-After 7 days with status still as 'Applied' for the Data Anaylst position, the program will send a reminder.
 
 # Notes:
 
