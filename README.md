@@ -79,6 +79,10 @@ README.md                 # This file
 <img width="428" height="142" alt="Image" src="https://github.com/user-attachments/assets/3b7dea6d-f059-4535-a668-8c275d664ebb" />
 
 
+
+In this snippet, since the position has a status of "Applied" for at least 7 days, the program will send an automatic reminder to follow-up. 
+
+
 # Notes:
 
 1. First thing, add secrets.json to your .gitignore file and commit it to keep your API credentials safe and your repo clean
