@@ -83,6 +83,16 @@ README.md                 # This file
 In this snippet, since the position has a status of "Applied" for at least 7 days, the program will send an automatic reminder to follow-up. 
 
 
+## Running Tests
+This project includes unit tests for key functionality in `tracker.py`.  
+To run all tests:
+```bash
+pytest
+# or
+python -m unittest test_file_name.py
+
+
+
 # Notes:
 
 1. First thing, add secrets.json to your .gitignore file and commit it to keep your API credentials safe and your repo clean
