@@ -47,40 +47,32 @@ venv\Scripts\activate     # Windows
 
 ## Run:
 
-python main.py
+python app.py (Web Browser Version - Recommended)
 
 
-After running the program, you'll be prompted to:
-
-1. Add a new job
-
-2. View all jobs
-
-3. Update application status
-
-4. Send follow-up reminders
-
-5. Exit
+python main.py (Terminal Version - Alternative)
 
 
 ## File Structure
 
-main.py                   # Main script to interact with the tracker
+main.py                   # Script to interact with the tracker through terminal
 
-tracker.py               # Helper functions (view, update, reminder logic)
+app.py                    # Script to interact with the tracker through web interface
+
+tracker.py                # Helper functions (view, update, reminder logic)
+
+test_tracker.py           # Unit tests for functions in tracker.py
 
 secrets.json              # Google API credentials
 
 README.md                 # This file
 
 
-## Program Snippet:
+## Program Snippet [Terminal Version (Top) vs Web Version (Bottom)] :
 
 <img width="428" height="142" alt="Image" src="https://github.com/user-attachments/assets/3b7dea6d-f059-4535-a668-8c275d664ebb" />
 
 
-
-In this snippet, since the position has a status of "Applied" for at least 7 days, the program will send an automatic reminder to follow-up. 
 
 
 ## Running Tests
@@ -97,5 +89,6 @@ python -m unittest test_file_name.py
 
 1. First thing, add secrets.json to your .gitignore file and commit it to keep your API credentials safe and your repo clean
 2. If you choose to work in a virtual environment, please include 'venv/' in your .gitignore file too
+3. If you choose the website version for running the program, visit 'http://127.0.0.1:5000'
 
 
