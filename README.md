@@ -42,7 +42,7 @@ venv\Scripts\activate     # Windows
 
 4. Share your Google Sheet with the service account email (found in the JSON)
 
-5. Update main.py with the name of your Google Sheet (long string between /d/ and /edit in the URL bar) and desired range.
+5. Update main.py with the name of your Google Sheet (long string between /d/ and /edit in the URL bar) and desired range (if using terminal version).
 
 
 ## Run:
