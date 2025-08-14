@@ -1,6 +1,6 @@
 # Job Application Tracker
 
-A Python-based tool that helps you log, track, and follow up on job applications using Google Sheets.
+TrackSmart is a job application tracker built with Python Flask and Google Sheets API. Provides web and terminal interfaces for managing job applications with form validation and automated reminders.
 
 ## ✅ Features
 
